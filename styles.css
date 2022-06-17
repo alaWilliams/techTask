@@ -3,3 +3,23 @@
   flex-direction: row;
   border: 1px solid hsla(0, 0, 0);
 }
+.student {
+  display: flex;
+  border: 1px solid hsla(0, 0, 0);
+}
+#one {
+  display: flex;
+  flex-direction: column;
+}
+#two{
+  display: flex;
+  flex-direction: column;
+}
+#three {
+  display: flex;
+  flex-direction: column;
+}
+#four{
+  display: flex;
+  flex-direction: column;
+}
