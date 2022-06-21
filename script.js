@@ -1,3 +1,4 @@
+document.body.innerHTML = '<h1>Just checking</h1>'
 const students = [
 {
 name: 'Martin',
