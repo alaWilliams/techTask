@@ -16,19 +16,7 @@ h1 {
   border: 5px solid black;
   width: 20%;
 }
-#one {
-  display: flex;
-  flex-direction: column;
-}
-#two{
-  display: flex;
-  flex-direction: column;
-}
-#three {
-  display: flex;
-  flex-direction: column;
-}
-#four{
+#one, #two, #three , #four {
   display: flex;
   flex-direction: column;
 }

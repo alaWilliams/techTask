@@ -31,13 +31,10 @@ function visitedLectures(arr) {
  
 function averageMark(arr) {
   let arrWithoutNull = arr.filter(Number);
-  let total = 0;
-  for (let i = 0; i < arrWithoutNull.length; i++) {
-    total =+ arrWithoutNull.length;
-    let avg = total / arrWithoutNull.length;
-    return avg;
-    };
-  return avg
+  const sum = arrWithoutNull.reduce((accum, curr) => {
+    return accum + curr
+  }, 0);
+  return sum / arrWithoutNull.length;
   };
 
 for (const student of students) {
